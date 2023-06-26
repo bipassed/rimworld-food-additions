@@ -25,9 +25,12 @@
             <li>
                 <label>ate simple cannibal meal</label>
                 <description>I ate a simple cannibal meal</description>
-                <baseMoodEffect>20</baseMoodEffect>
+                <baseMoodEffect>5</baseMoodEffect>
             </li>
         </stages>
+        <requiredTraits>
+            <li>Cannibal</li>
+        </requiredTraits>
     </ThoughtDef>
 
     <ThoughtDef>
@@ -37,12 +40,12 @@
             <li>
                 <label>ate fine cannibal meal</label>
                 <description>I ate a fine cannibal meal</description>
-                <baseMoodEffect>25</baseMoodEffect>
+                <baseMoodEffect>10</baseMoodEffect>
             </li>
         </stages>
-        <replaceThoughts>
-            <li>AteLavishMeal</li>
-        </replaceThoughts>
+        <requiredTraits>
+            <li>Cannibal</li>
+        </requiredTraits>
     </ThoughtDef>
 
     <ThoughtDef>
@@ -52,12 +55,12 @@
             <li>
                 <label>ate lavish cannibal meal</label>
                 <description>I ate a lavish cannibal meal</description>
-                <baseMoodEffect>30</baseMoodEffect>
+                <baseMoodEffect>15</baseMoodEffect>
             </li>
         </stages>
-        <replaceThoughts>
-            <li>AteFineMeal</li>
-        </replaceThoughts>
+        <requiredTraits>
+            <li>Cannibal</li>
+        </requiredTraits>
     </ThoughtDef>
 
 </Defs>
