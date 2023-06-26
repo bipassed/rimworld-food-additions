@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+    <ThingDef ParentName="MealCooked">
+        <defName>RAT_CannibalMealSimple</defName>
+        <label>cannibal simple meal</label>
+        <description>A simple meal quickly cooked from human meat and a few ingredients.</description>
+        <graphicData>
+            <texPath></texPath>
+            <graphicClass>Graphic_StackCount</graphicClass>
+        </graphicData>
+        <statBases>
+            <MarketValue>15</MarketValue>
+            <WorkToMake>300</WorkToMake>
+            <Nutrition>0.9</Nutrition>
+        </statBases>
+        <ingestible>
+            <preferability>MealSimple</preferability>
+            <ingestEffect>EatVegetarian</ingestEffect>
+            <ingestSound>Meal_Eat</ingestSound>
+            <tasteThought>RAT_AteCannibalMealSimple</tasteThought>
+        </ingestible>
+        <tradeability>Sellable</tradeability>
+    </ThingDef>
+
+    <ThingDef ParentName="MealCooked">
+        <defName>RAT_CannibalMealFine</defName>
+        <label>cannibal fine meal</label>
+        <description>A complex dish assembled with care from human meat and a wide selection of ingredients.</description>
+        <graphicData>
+            <texPath></texPath>
+            <graphicClass>Graphic_StackCount</graphicClass>
+        </graphicData>
+        <statBases>
+            <MarketValue>20</MarketValue>
+            <Nutrition>0.9</Nutrition>
+        </statBases>
+        <ingestible>
+            <preferability>MealFine</preferability>
+            <tasteThought>RAT_AteCannibalMealFine</tasteThought>
+            <ingestEffect>EatVegetarian</ingestEffect>
+            <ingestSound>Meal_Eat</ingestSound>
+        </ingestible>
+        <tradeability>Sellable</tradeability>
+    </ThingDef>
+
+    <ThingDef ParentName="MealCooked">
+        <defName>RAT_CannibalMealLavish</defName>
+        <label>cannibal lavish meal</label>
+        <description>A masterpiece of the cannibal culinary arts, this meal nourishes the body, mind, and soul.</description>
+        <graphicData>
+            <texPath></texPath>
+            <graphicClass>Graphic_StackCount</graphicClass>
+        </graphicData>
+        <statBases>
+            <MarketValue>40</MarketValue>
+            <Nutrition>1.00</Nutrition>
+        </statBases>
+        <ingestible>
+            <preferability>MealLavish</preferability>
+            <tasteThought>RAT_AteCannibalMealLavish</tasteThought>
+            <ingestEffect>EatVegetarian</ingestEffect>
+            <ingestSound>Meal_Eat</ingestSound>
+        </ingestible>
+        <tradeability>Sellable</tradeability>
+    </ThingDef>
+
+</Defs>

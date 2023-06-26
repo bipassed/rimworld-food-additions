@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+    <!-- Dough -->
+    <RecipeDef ParentName="CookMealFineBase">
+        <defName>RAT_PreparePizzaDough</defName>
+        <label>prepare pizza dough</label>
+        <description>Prepare pizza dough.</description>
+        <jobString>Preparing pizza dough.</jobString>
+        <workAmount>500</workAmount>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>VCE_Flour</li>
+                    </thingDefs>
+                </filter>
+                <count>1</count>
+            </li>
+        </ingredients>
+        <products>
+            <RAT_PizzaDough>2</RAT_PizzaDough>
+        </products>
+        <recipeUsers>
+            <li>ElectricStove</li>
+            <li>FueledStove</li>
+        </recipeUsers>
+    </RecipeDef>
+
+    <RecipeDef ParentName="CookMealFineBase">
+        <defName>RAT_PreparePizzaDoughBulk</defName>
+        <label>prepare pizza dough x4</label>
+        <description>Prepare 4 pizza dough.</description>
+        <jobString>Preparing 4 pizza dough.</jobString>
+        <workAmount>2000</workAmount>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>VCE_Flour</li>
+                    </thingDefs>
+                </filter>
+                <count>4</count>
+            </li>
+        </ingredients>
+        <products>
+            <RAT_PizzaDough>8</RAT_PizzaDough>
+        </products>
+        <recipeUsers>
+            <li>ElectricStove</li>
+            <li>FueledStove</li>
+        </recipeUsers>
+    </RecipeDef>
+
+    <!-- Pepperoni Pizza -->
+    <RecipeDef ParentName="CookMealFineBase">
+        <defName>RAT_CookPepperoniPizza</defName>
+        <label>cook pepperoni pizza</label>
+        <description>Prepare a flavorful pepperoni pizza by combining meat, cheese, and sauce.</description>
+        <jobString>Cooking pepperoni pizza.</jobString>
+        <workAmount>2200</workAmount>
+        <ingredients>
+            <li>
+                <filter>
+                    <categories>
+                        <li>MeatRaw</li>
+                    </categories>
+                </filter>
+                <count>0.5</count>
+            </li>
+            <li>
+                <filter>
+                    <categories>
+                        <li>VCE_Cheese</li>
+                    </categories>
+                </filter>
+                <count>0.5</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>VCE_RawTomatoes</li>
+                    </thingDefs>
+                </filter>
+                <count>0.5</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>RAT_PizzaDough</li>
+                    </thingDefs>
+                </filter>
+                <count>0.5</count>
+            </li>
+        </ingredients>
+        <products>
+            <RAT_MealPepperoniPizza>4</RAT_MealPepperoniPizza>
+        </products>
+        <recipeUsers>
+            <li>ElectricStove</li>
+            <li>FueledStove</li>
+        </recipeUsers>
+    </RecipeDef>
+
+    <RecipeDef ParentName="CookMealFineBase">
+        <defName>RAT_CookPepperoniPizzaBulk</defName>
+        <label>cook pepperoni pizza x4</label>
+        <description>Prepare 4 flavorful pepperoni pizza by combining meat, cheese, and sauce.</description>
+        <jobString>Cooking 4 pepperoni pizza.</jobString>
+        <workAmount>3500</workAmount>
+        <ingredients>
+            <li>
+                <filter>
+                    <categories>
+                        <li>MeatRaw</li>
+                    </categories>
+                </filter>
+                <count>2</count>
+            </li>
+            <li>
+                <filter>
+                    <categories>
+                        <li>VCE_Cheese</li>
+                    </categories>
+                </filter>
+                <count>2</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>VCE_RawTomatoes</li>
+                    </thingDefs>
+                </filter>
+                <count>2</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>RAT_PizzaDough</li>
+                    </thingDefs>
+                </filter>
+                <count>2</count>
+            </li>
+        </ingredients>
+        <products>
+            <RAT_MealPepperoniPizza>16</RAT_MealPepperoniPizza>
+        </products>
+        <recipeUsers>
+            <li>ElectricStove</li>
+            <li>FueledStove</li>
+        </recipeUsers>
+    </RecipeDef>
+
+</Defs>

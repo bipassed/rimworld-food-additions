@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <packageId>rat.food.additions</packageId>
+  <name>Food Additions</name>
+  <author>Food Additions</author>
+  <description>Adds new stuff relating to the culinary world.</description>
+  <supportedVersions>
+    <li>1.4</li>
+  </supportedVersions>
+  <modDependencies>
+    <li>
+      <packageId>VanillaExpanded.VCookE</packageId>
+      <displayName>Vanilla Cooking Expanded</displayName>
+      <steamWorkshopUrl>https://github.com/Vanilla-Expanded/VanillaExpandedFramework</steamWorkshopUrl>
+    </li>
+    <li>
+      <packageId>vanillaexpanded.vplantse</packageId>
+      <displayName>Vanilla Plants Expanded</displayName>
+      <steamWorkshopUrl>https://github.com/Vanilla-Expanded/VanillaExpandedFramework</steamWorkshopUrl>
+    </li>
+  </modDependencies>
+</ModMetaData>
