@@ -6,7 +6,7 @@
         <label>cannibal simple meal</label>
         <description>A simple meal quickly cooked from human meat and a few ingredients.</description>
         <graphicData>
-            <texPath></texPath>
+            <texPath>Things/Item/Cannibal/Simple/Simple</texPath>
             <graphicClass>Graphic_StackCount</graphicClass>
         </graphicData>
         <statBases>
@@ -28,7 +28,7 @@
         <label>cannibal fine meal</label>
         <description>A complex dish assembled with care from human meat and a wide selection of ingredients.</description>
         <graphicData>
-            <texPath></texPath>
+            <texPath>Things/Item/Cannibal/Fine/Fine</texPath>
             <graphicClass>Graphic_StackCount</graphicClass>
         </graphicData>
         <statBases>
@@ -49,7 +49,7 @@
         <label>cannibal lavish meal</label>
         <description>A masterpiece of the cannibal culinary arts, this meal nourishes the body, mind, and soul.</description>
         <graphicData>
-            <texPath></texPath>
+            <texPath>Things/Item/Cannibal/Lavish/Lavish</texPath>
             <graphicClass>Graphic_StackCount</graphicClass>
         </graphicData>
         <statBases>
