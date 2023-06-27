@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+    <!-- Pizzas -->
+    <ThoughtDef>
+        <defName>RAT_AtePepperoniPizza</defName>
+        <durationDays>1</durationDays>
+        <stages>
+            <li>
+                <label>ate pepperoni pizza</label>
+                <description>I ate a really pepperoni pizza. Yum!</description>
+                <baseMoodEffect>7</baseMoodEffect>
+            </li>
+        </stages>
+        <replaceThoughts>
+            <li>AteLavishMeal</li>
+        </replaceThoughts>
+    </ThoughtDef>
+
+</Defs>

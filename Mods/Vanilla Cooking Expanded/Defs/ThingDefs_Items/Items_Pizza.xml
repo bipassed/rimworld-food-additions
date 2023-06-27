@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+    <!-- Pizza -->
+    <ThingDef ParentName="MealFineBase">
+        <defName>RAT_MealPepperoniPizza</defName>
+        <label>pepperoni pizza</label>
+        <description>A carefully crafted pizza, skillfully assembled with a variety of ingredients.</description>
+        <graphicData>
+            <texPath>Things/Item/Pizza/Pepperoni</texPath>
+            <graphicClass>Graphic_StackCount</graphicClass>
+        </graphicData>
+        <comps>
+            <li Class="CompProperties_Ingredients">
+                <splitTransferableFoodKind>true</splitTransferableFoodKind>
+            </li>
+        </comps>
+        <ingestible>
+            <tasteThought>RAT_AtePepperoniPizza</tasteThought>
+        </ingestible>
+    </ThingDef>
+
+</Defs>

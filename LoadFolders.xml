@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<loadFolders>
+	<v1.4>
+		<li IfModActive="Ludeon.RimWorld">Core</li>
+
+		<li IfModActive="vanillaexpanded.vcooke">Mods/Vanilla Cooking Expanded</li>
+	</v1.4>
+</loadFolders>
