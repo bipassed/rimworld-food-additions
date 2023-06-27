@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Defs>
 
-    <!-- Pepperoni Pizza -->
     <RecipeDef ParentName="CookMealFineBase">
-        <defName>RAT_CookPepperoniPizza</defName>
-        <label>cook pepperoni pizza</label>
-        <description>Prepare a flavorful pepperoni pizza by combining meat, cheese, and sauce.</description>
-        <jobString>Cooking pepperoni pizza.</jobString>
-        <workAmount>700</workAmount>
+        <defName>RAT_CookCheeseburger</defName>
+        <label>cook cheeseburger</label>
+        <description>Cook a cheeseburger.</description>
+        <jobString>Cooking cheeseburger.</jobString>
+        <workAmount>500</workAmount>
         <ingredients>
             <li>
                 <filter>
@@ -15,7 +14,7 @@
                         <li>MeatRaw</li>
                     </categories>
                 </filter>
-                <count>0.5</count>
+                <count>0.25</count>
             </li>
             <li>
                 <filter>
@@ -23,15 +22,7 @@
                         <li>VCE_Cheese</li>
                     </categories>
                 </filter>
-                <count>0.5</count>
-            </li>
-            <li>
-                <filter>
-                    <thingDefs>
-                        <li>VCE_RawTomatoes</li>
-                    </thingDefs>
-                </filter>
-                <count>0.5</count>
+                <count>0.1</count>
             </li>
             <li>
                 <filter>
@@ -39,11 +30,11 @@
                         <li>VCE_Flour</li>
                     </thingDefs>
                 </filter>
-                <count>0.5</count>
+                <count>0.25</count>
             </li>
         </ingredients>
         <products>
-            <RAT_MealPepperoniPizza>4</RAT_MealPepperoniPizza>
+            <RAT_MealCheeseburger>1</RAT_MealCheeseburger>
         </products>
         <recipeUsers>
             <li>ElectricStove</li>
@@ -52,11 +43,11 @@
     </RecipeDef>
 
     <RecipeDef ParentName="CookMealFineBase">
-        <defName>RAT_CookPepperoniPizzaBulk</defName>
-        <label>cook pepperoni pizza x4</label>
-        <description>Prepare 4 flavorful pepperoni pizza by combining meat, cheese, and sauce.</description>
-        <jobString>Cooking 4 pepperoni pizza.</jobString>
-        <workAmount>2800</workAmount>
+        <defName>RAT_CookCheeseburgerBulk</defName>
+        <label>cook cheeseburger x4</label>
+        <description>Cook x4 cheeseburger.</description>
+        <jobString>Cooking cheeseburger.</jobString>
+        <workAmount>2000</workAmount>
         <ingredients>
             <li>
                 <filter>
@@ -64,7 +55,7 @@
                         <li>MeatRaw</li>
                     </categories>
                 </filter>
-                <count>2</count>
+                <count>1</count>
             </li>
             <li>
                 <filter>
@@ -72,15 +63,7 @@
                         <li>VCE_Cheese</li>
                     </categories>
                 </filter>
-                <count>2</count>
-            </li>
-            <li>
-                <filter>
-                    <thingDefs>
-                        <li>VCE_RawTomatoes</li>
-                    </thingDefs>
-                </filter>
-                <count>2</count>
+                <count>0.4</count>
             </li>
             <li>
                 <filter>
@@ -88,11 +71,11 @@
                         <li>VCE_Flour</li>
                     </thingDefs>
                 </filter>
-                <count>2</count>
+                <count>1</count>
             </li>
         </ingredients>
         <products>
-            <RAT_MealPepperoniPizza>16</RAT_MealPepperoniPizza>
+            <RAT_MealCheeseburger>4</RAT_MealCheeseburger>
         </products>
         <recipeUsers>
             <li>ElectricStove</li>

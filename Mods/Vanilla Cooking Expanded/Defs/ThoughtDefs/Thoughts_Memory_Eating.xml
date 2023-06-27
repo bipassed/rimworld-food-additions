@@ -8,8 +8,24 @@
         <stages>
             <li>
                 <label>ate pepperoni pizza</label>
-                <description>I ate a really pepperoni pizza. Yum!</description>
-                <baseMoodEffect>7</baseMoodEffect>
+                <description>I ate a really tasty pepperoni pizza. Yum!</description>
+                <baseMoodEffect>8</baseMoodEffect>
+            </li>
+        </stages>
+        <replaceThoughts>
+            <li>AteLavishMeal</li>
+        </replaceThoughts>
+    </ThoughtDef>
+
+    <!-- Cheeseburger -->
+    <ThoughtDef>
+        <defName>RAT_AteCheeseburger</defName>
+        <durationDays>1</durationDays>
+        <stages>
+            <li>
+                <label>ate cheeseburger</label>
+                <description>I ate a cheeseburger. Good riddance to those damn cows.</description>
+                <baseMoodEffect>5</baseMoodEffect>
             </li>
         </stages>
         <replaceThoughts>

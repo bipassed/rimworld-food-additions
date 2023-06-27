@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+    <ThingDef ParentName="MealFineBase">
+        <defName>RAT_MealCheeseburger</defName>
+        <label>cheeseburger</label>
+        <description>A cheeseburger is a classic American sandwich consisting of a cooked ground beef patty served in a sliced bun and often topped with condiments, cheese, and other flavorful additions.</description>
+        <graphicData>
+            <texPath>Things/Item/Cheeseburger</texPath>
+            <graphicClass>Graphic_StackCount</graphicClass>
+        </graphicData>
+        <comps>
+            <li Class="CompProperties_Ingredients">
+                <splitTransferableFoodKind>true</splitTransferableFoodKind>
+            </li>
+        </comps>
+        <ingestible>
+            <tasteThought>RAT_AteCheeseburger</tasteThought>
+        </ingestible>
+    </ThingDef>
+
+</Defs>

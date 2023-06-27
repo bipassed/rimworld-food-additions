@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+    <ThingDef ParentName="DrugBase">
+        <defName>RAT_Eggnog</defName>
+        <label>eggnog</label>
+        <description>Eggnog is a rich and creamy traditional holiday beverage made with milk and eggs.</description>
+        <graphicData>
+            <texPath>Things/Item/Drinks/Eggnog</texPath>
+            <graphicClass>Graphic_StackCount</graphicClass>
+        </graphicData>
+        <thingCategories>
+            <li>Foods</li>
+        </thingCategories>
+        <rotatable>false</rotatable>
+        <stackLimit>25</stackLimit>
+        <statBases>
+            <DeteriorationRate>0.5</DeteriorationRate>
+            <MarketValue>20</MarketValue>
+            <Mass>0.3</Mass>
+            <Flammability>0.5</Flammability>
+            <Nutrition>0.25</Nutrition>
+        </statBases>
+        <ingestible>
+            <foodType>Fluid, Processed</foodType>
+            <joyKind>Gluttonous</joyKind>
+            <joy>0.25</joy>
+            <drugCategory>Social</drugCategory>
+            <ingestSound>Ingest_Beer</ingestSound>
+            <ingestHoldOffsetStanding>
+                <northDefault>
+                    <offset>(0.18,0,0)</offset>
+                </northDefault>
+            </ingestHoldOffsetStanding>
+            <ingestCommandString>Drink {0}</ingestCommandString>
+            <ingestReportString>Drinking {0}.</ingestReportString>
+            <ingestHoldUsesTable>false</ingestHoldUsesTable>
+            <tasteThought>RAT_DrankEggnog</tasteThought>
+        </ingestible>
+        <techLevel>Neolithic</techLevel>
+        <comps>
+            <li Class="CompProperties_Drug">
+                <listOrder>1000</listOrder>
+                <overdoseSeverityOffset>0</overdoseSeverityOffset>
+            </li>
+        </comps>
+    </ThingDef>
+
+</Defs>

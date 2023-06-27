@@ -1,3 +1,11 @@
+June 27th 2023 5:54PM
+- Added cheeseburgers
+- Added eggnog
+- Increased pepperoni pizza mood bonus from +7 to +8
+- Changed pepperoni pizza recipe workAmounts, 2200 to 700 and 3500 to 2800 respectively
+- Updated cannibal textures
+- Updated README.md
+
 June 27th 2023 11:44AM
 - Removed dependencies in favor of LoadFolders
 - Removed pizza dough in favor of VCE_Flour

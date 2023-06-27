@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+    <RecipeDef ParentName="CookMealBase">
+        <defName>RAT_PrepareEggnog</defName>
+        <label>prepare eggnog</label>
+        <description>Prepare eggnog from milk and eggs.</description>
+        <jobString>Preparing eggnog.</jobString>
+        <workSpeedStat>CookSpeed</workSpeedStat>
+        <requiredGiverWorkType>Cooking</requiredGiverWorkType>
+        <effectWorking>Cook</effectWorking>
+        <soundWorking>Recipe_CookMeal</soundWorking>
+        <allowMixingIngredients>true</allowMixingIngredients>
+        <ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+        <recipeUsers>
+            <li>ElectricStove</li>
+            <li>FueledStove</li>
+        </recipeUsers>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Milk</li>
+                    </thingDefs>
+                </filter>
+                <count>0.5</count>
+            </li>
+            <li>
+                <filter>
+                    <categories>
+                        <li>EggsUnfertilized</li>
+                    </categories>
+                </filter>
+                <count>1.5</count>
+            </li>
+        </ingredients>
+        <products>
+            <RAT_Eggnog>8</RAT_Eggnog>
+        </products>
+        <workAmount>650</workAmount>
+        <workSkill>Cooking</workSkill>
+    </RecipeDef>
+
+    <RecipeDef ParentName="CookMealBase">
+        <defName>RAT_PrepareEggnogBulk</defName>
+        <label>prepare eggnog x4</label>
+        <description>Prepare x4 eggnog from milk and eggs.</description>
+        <jobString>Preparing eggnog.</jobString>
+        <workSpeedStat>CookSpeed</workSpeedStat>
+        <requiredGiverWorkType>Cooking</requiredGiverWorkType>
+        <effectWorking>Cook</effectWorking>
+        <soundWorking>Recipe_CookMeal</soundWorking>
+        <allowMixingIngredients>true</allowMixingIngredients>
+        <ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+        <recipeUsers>
+            <li>ElectricStove</li>
+            <li>FueledStove</li>
+        </recipeUsers>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Milk</li>
+                    </thingDefs>
+                </filter>
+                <count>2</count>
+            </li>
+            <li>
+                <filter>
+                    <categories>
+                        <li>EggsUnfertilized</li>
+                    </categories>
+                </filter>
+                <count>6</count>
+            </li>
+        </ingredients>
+        <products>
+            <RAT_Eggnog>32</RAT_Eggnog>
+        </products>
+        <workAmount>2500</workAmount>
+        <workSkill>Cooking</workSkill>
+    </RecipeDef>
+
+</Defs>

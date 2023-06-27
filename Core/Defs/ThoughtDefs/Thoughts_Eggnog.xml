@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+    <ThoughtDef>
+        <defName>RAT_DrankEggnog</defName>
+        <durationDays>1</durationDays>
+        <stages>
+            <li>
+                <label>drank eggnog</label>
+                <description>I drank some tasty nog! Yippie!</description>
+                <baseMoodEffect>6</baseMoodEffect>
+            </li>
+        </stages>
+    </ThoughtDef>
+
+</Defs>
